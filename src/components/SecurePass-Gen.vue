@@ -8,7 +8,7 @@
     </header>
     <div class="settings">
       <label>Length</label>
-      <span>{{ length }}</span>
+      <span class="length">{{ length }}</span>
       <input type="range" v-model="length" min="1" max="100" />
     </div>
     <div class="options">
@@ -146,6 +146,11 @@ h1 {
   font-size: 4rem;
 }
 
+.length {
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+}
+
 .refresh-button {
   display: inline-block;
   text-decoration: none;
@@ -260,5 +265,45 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .secure-pass {
+    padding: 1rem;
+    border-radius: 5px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .refresh-button {
+    font-size: 1.2rem;
+  }
+
+  .settings,
+  .options,
+  .password-output {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+  }
+
+  .options label {
+    width: 100%;
+  }
+
+  .settings input[type="range"] {
+    margin-left: 0;
+  }
+
+  .password-output input[type="text"] {
+    font-size: 1rem;
+    padding: 0.4rem;
+  }
+
+  .password-output button {
+    font-size: 1.2rem;
+  }
 }
 </style>
