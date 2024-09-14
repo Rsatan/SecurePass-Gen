@@ -13,7 +13,7 @@ A secure and customizable password generator built with Vue.js and the Crypto We
 
 ## Online Version
 
-https://password.socialeng.top
+[https://password.rsa7an.top](https://password.rsa7an.top)
 
 ## Getting Started
 
