@@ -32,7 +32,7 @@
       </button>
     </div>
     <footer>
-      <p><a href="https://github.com/rsatan/securepass-gen">Source</a>｜<a href="https://blog.socialeng.top">Made by Rsa7an</a></p>
+      <p><a href="https://github.com/rsatan/securepass-gen">Source</a>｜<a href="https://blog.rsa7an.top">Made by Rsa7an</a></p>
     </footer>
   </div>
 </template>
